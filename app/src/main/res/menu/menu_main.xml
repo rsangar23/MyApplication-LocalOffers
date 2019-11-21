@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="location map"
+        android:id="@+id/map_loc"
+        android:icon="@drawable/ic_map"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/proficon_id"
+        android:title="profile"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/sub_menu"
+        android:title="main"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/ofr"
+                android:title="offers"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_card_giftcard"/>
+            <item
+                android:id="@+id/alv"
+                android:title="Alive"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_favorite"/>
+            <item
+                android:id="@+id/hlp"
+                android:title="help"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_help_outline"/>
+            <item
+                android:id="@+id/rts"
+                android:title="rate us"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_star"/>
+            <item
+                android:id="@+id/rfs"
+                android:title="refer friends"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_friends"/>
+            <item
+                android:id="@+id/shr"
+                android:title="share"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_share"/>
+            <item
+                android:id="@+id/tou"
+                android:title="terms of use"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_terms"/>
+            <item
+                android:id="@+id/pp"
+                android:title="privacy policy"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_privacy"/>
+            <item
+                android:id="@+id/set"
+                android:title="settings"
+                app:showAsAction="never"
+                android:icon="@drawable/ic_settings"/>
+            <item
+                android:id="@+id/ver"
+                android:title="Get My Location"
+                app:showAsAction="never"/>
+
+
+        </menu>
+
+    </item>
+
+</menu>
